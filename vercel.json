@@ -6,6 +6,14 @@
     },
     "routes": [
         {
+            "src": "/build/(.*)",
+            "dest": "/public/build/$1"
+        },
+        {
+            "src": "/(css|js|images|assets)/(.*)",
+            "dest": "/public/$1/$2"
+        },
+        {
             "src": "/(.*)",
             "dest": "/api/index.php"
         }
@@ -13,7 +21,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://yourprojectdomain.com",
+        "APP_URL": "https://kn23laravel.vercel.app/",
         "APP_KEY": "base64:R8Ijge0WUb935grHRZ/sM8lwUw4CYPV/l7wZNs03Eaw=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
