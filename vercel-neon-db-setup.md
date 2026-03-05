@@ -20,11 +20,11 @@ vercel env pull .env.local
 
 ```env
 DB_CONNECTION=pgsql
-DB_HOST=ep-restless-pond-ai2uylb3.c-4.us-east-1.aws.neon.tech  # Використовуйте НЕПУЛЬОВАНЕ з'єднання (без pooler в назві)
+DB_HOST=ep-restle*******i2uylb3.c-4.us-east-1.aws.neon.tech  # Використовуйте НЕПУЛЬОВАНЕ з'єднання (без pooler в назві)
 DB_PORT=5432
 DB_DATABASE=neondb
 DB_USERNAME=neondb_owner
-DB_PASSWORD=npg_Yan1GuSztTP8   # Ваш пароль з .env.local
+DB_PASSWORD=npg_Yan*******TP8   # Ваш пароль з .env.local
 DB_SSLMODE=require
 ```
 
